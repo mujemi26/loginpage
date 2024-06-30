@@ -8,7 +8,7 @@
 }
 
 body {
-  background: url(./images/1424SXZDSD2.jpg);
+  background-image: url(./images/1424SXZDSD2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -22,7 +22,6 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   position: fixed;
   width: 100%;
   z-index: 2;
@@ -115,6 +114,7 @@ img {
 .login-input {
   display: flex;
   flex-direction: column;
+  position: relative;
   width: 100%;
   margin: 0.5rem 0rem;
 }
@@ -182,7 +182,7 @@ img {
   color: #fff;
 }
 
-@media screen and (max-width: 750px) {
+@media (max-width: 750px) {
   .left-login {
     display: none;
   }
